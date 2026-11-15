@@ -14,13 +14,7 @@ window.GOA_CONFIG = {
   //   apiKey: "...", authDomain: "...", projectId: "...",
   //   storageBucket: "...", messagingSenderId: "...", appId: "..."
   // },
-  firebase: // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
+  firebase: {
   apiKey: "AIzaSyCQzcCZkrcRFjEbyaED7VuST_Ii04nFBtw",
   authDomain: "trip-planner-53a69.firebaseapp.com",
   projectId: "trip-planner-53a69",
@@ -28,9 +22,7 @@ const firebaseConfig = {
   messagingSenderId: "743069342631",
   appId: "1:743069342631:web:2623e9285f2572c5d0f482"
 };
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);,
+,
 
   // Optional: your own hero photo, e.g. "photos/hero.jpg" (put the file in the photos folder).
   heroImage: "",
