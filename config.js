@@ -5,7 +5,7 @@
 window.GOA_CONFIG = {
   // Your private trip code. The first person to sign in and choose 'Set up as host' becomes the host, so keep this secret until that is done.
   // Make it long and unguessable, e.g. "goa-gang-7x3k9q-2026". Letters, numbers and dashes only.
-  tripCode: "12th_Fail",
+  tripCode: "goa-gang-change-me",
 
   // Paste your Firebase web config here to turn on live sync between everyone's phones.
   // Leave it as null to run in local demo mode (data stays only on this device).
@@ -14,13 +14,7 @@ window.GOA_CONFIG = {
   //   apiKey: "...", authDomain: "...", projectId: "...",
   //   storageBucket: "...", messagingSenderId: "...", appId: "..."
   // },
-  firebase:  {
-  apiKey: "AIzaSyCQzcCZkrcRFjEbyaED7VuST_Ii04nFBtw",
-  authDomain: "trip-planner-53a69.firebaseapp.com",
-  projectId: "trip-planner-53a69",
-  storageBucket: "trip-planner-53a69.firebasestorage.app",
-  messagingSenderId: "743069342631",
-  appId: "1:743069342631:web:2623e9285f2572c5d0f482"},
+  firebase: null,
 
   // Optional: your own hero photo, e.g. "photos/hero.jpg" (put the file in the photos folder).
   heroImage: "",
