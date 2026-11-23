@@ -1,31 +1,7 @@
-/*
-  Goa Trip - settings you can edit WITHOUT rebuilding the app.
-  After changing this file, upload the folder to your host again.
-*/
-window.GOA_CONFIG = {
-  // Your private trip code. The first person to sign in and choose 'Set up as host' becomes the host, so keep this secret until that is done.
-  // Make it long and unguessable, e.g. "goa-gang-7x3k9q-2026". Letters, numbers and dashes only.
-  tripCode: "12th_Fail",
-
-  // Paste your Firebase web config here to turn on live sync between everyone's phones.
-  // Leave it as null to run in local demo mode (data stays only on this device).
-  // Example:
-  // firebase: {
-  //   apiKey: "...", authDomain: "...", projectId: "...",
-  //   storageBucket: "...", messagingSenderId: "...", appId: "..."
-  // },
-firebase: null,
-  firebase:  {
-  apiKey: "AIzaSyCQzcCZkrcRFjEbyaED7VuST_Ii04nFBtw",
-  authDomain: "trip-planner-53a69.firebaseapp.com",
-  projectId: "trip-planner-53a69",
-  storageBucket: "trip-planner-53a69.firebasestorage.app",
-  messagingSenderId: "743069342631",
-  appId: "1:743069342631:web:2623e9285f2572c5d0f482"},
-  // Optional: your own hero photo, e.g. "photos/hero.jpg" (put the file in the photos folder).
-  heroImage: "",
-
-  // Optional: a different map style. Default is OpenStreetMap (free, no key).
-  // mapTileUrl: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-  // mapAttribution: "© OpenStreetMap contributors",
+// Your Supabase connection (see SETUP.md, step 5). Both values are safe to keep in a public GitHub repo:
+// the key only works together with a signed-in login, and every table is locked to its owner.
+// While these are empty, Voyage runs in demo mode with sample data stored only in this browser.
+window.KVS_CONFIG = {
+  SUPABASE_URL: "https://hkjhntofwxpkorfrkqmy.supabase.co",
+  SUPABASE_ANON_KEY: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhramhudG9md3hwa29yZnJrcW15Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTUwMjAyMTMsImV4cCI6MjExMDU5NjIxM30.ILf78ZK-KM3yK6LPoLuqguueqzZ5c2LYZYAt_zg6VSM"
 };
